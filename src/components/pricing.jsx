@@ -35,7 +35,6 @@ const PricingPage = ({ data }) => {
 			className="PricingApp"
 		>
 			<div className="app-container">
-				{/* Header */}
 				<header>
 					<h1 className="header-topic">Plan and Package</h1>
 					<div className="header-row">

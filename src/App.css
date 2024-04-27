@@ -125,7 +125,7 @@ button {
 /*------*/
 
 .PricingApp .app-container {
-  width: min(100%, 100rem);
+  width: min(100%, 150rem);
 }
 
 .PricingApp header .header-topic {
