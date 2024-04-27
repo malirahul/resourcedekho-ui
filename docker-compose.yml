@@ -1,0 +1,13 @@
+# version: '3'
+# services:
+#   react-app:
+#     container_name: react-app
+#     image: resourcedekho/metricfrontend:v1.35
+#     ports:
+#       - '164.52.207.135:8181:8181'
+#     volumes:
+#       - ./src:/app/src
+#     network_mode: host
+#     restart: always
+#     env_file:
+#       - .env

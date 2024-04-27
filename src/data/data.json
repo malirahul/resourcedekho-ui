@@ -1,0 +1,405 @@
+{
+  "Header": {
+    "title": "Get resource for your fast growing firm",
+    "paragraph": "We offer business solutions and resource outsourcing for IT services."
+  },
+  "About": {
+    "paragraph": "We accept clients throughout the globe who are ready to Outsource IT needs.",
+    "paragraph1": "We at ResourceDekho provide managed IT resources and services for DevOps Infrastructure & Cloud, Monitoring & Logging solution & setup, Digital transformation, Software & development.",
+    "paragraph2": "We focus on the needs of our clients to provide 100% satisfaction. We understand the whole depth and scope of our client’s businesses and enterprise-wide IT environments allows us to come up with efficient, long-lasting IT solutions and choose effective technologies.",
+    "Why": [
+      "DevOps and Automation",
+      "Installation Configuration & Setup",
+      "Software Application Design and Development"
+    ],
+    "Why2": [
+      "DevOps Consultant",
+      "LSearch Engine Optimization",
+      "Responsive Web Design and Web Hosting"
+    ]
+  },
+  "Pricing":[
+    {
+      "plan": "FREE",
+      "price": "$0/month",
+      "features": [
+        {
+          "name": "Single User",
+          "isEnabled": true
+        },
+        {
+          "name": "50GB Storage",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Public Projects",
+          "isEnabled": true
+        },
+        {
+          "name": "Community Access",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Private Projects",
+          "isEnabled": false
+        },
+        {
+          "name": "Dedicated Phone Support",
+          "isEnabled": false
+        },
+        {
+          "name": "Free Subdomain",
+          "isEnabled": false
+        },
+        {
+          "name": "Monthly Status Reports",
+          "isEnabled": false
+        }
+      ]
+    },
+    {
+      "plan": "PLUS",
+      "price": "$9/month",
+      "features": [
+        {
+          "name": "5 Users",
+          "isEnabled": true
+        },
+        {
+          "name": "50GB Storage",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Public Projects",
+          "isEnabled": true
+        },
+        {
+          "name": "Community Access",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Private Projects",
+          "isEnabled": true
+        },
+        {
+          "name": "Dedicated Phone Support",
+          "isEnabled":true        },
+        {
+          "name": "Free Subdomain",
+          "isEnabled":true        },
+        {
+          "name": "Monthly Status Reports",
+          "isEnabled": false        }
+      ]
+    },
+    {
+      "plan": "PRO",
+      "price": "$49/month",
+      "features": [
+        {
+          "name": "Unlimited Users",
+          "isEnabled": true
+        },
+        {
+          "name": "50GB Storage",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Public Projects",
+          "isEnabled": true
+        },
+        {
+          "name": "Community Access",
+          "isEnabled": true
+        },
+        {
+          "name": "Unlimited Private Projects",
+          "isEnabled": true
+        },
+        {
+          "name": "Dedicated Phone Support",
+          "isEnabled": true
+        },
+        {
+          "name": "Free Subdomain",
+          "isEnabled": true
+        },
+        {
+          "name": "Monthly Status Reports",
+          "isEnabled": true
+        }
+      ]
+    }
+  ],
+
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "id": 1,
+      "image": "img/services/1.png",
+      "title": "Log management and monitoring",
+      "icon": "bi-broadcast",
+      "services": [
+        "Log management",
+        "Monitoring",
+        "Reporting",
+        "Alerting",
+        "Rapid Action Team"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "img/services/1.png",
+      "title": "Containerization & Microservices",
+      "icon": "bi-bounding-box-circles",
+      "services": [
+        "Microservices architecture",
+        "Microservices consulting",
+        "Kubernetes managed services",
+        "Container orchestration",
+        "Security evaluation & hardening"
+      ]
+    },
+    {
+      "id": 3,
+      "image": "img/services/1.png",
+      "title": "DevOps outsourcing and consulting",
+      "icon": "bi-activity",
+      "services": [
+        "DevOps assessment & audit",
+        "DevOps implementation from scratch with roadmapping",
+        "DevOps consulting",
+        "Release management"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "img/services/1.png",
+      "title": "DevOps in cloud",
+      "icon": "bi-easel",
+      "services": [
+        "Cloud architecture design",
+        "Cloud readiness assessment",
+        "Cloud migration services",
+        "Managed cloud services",
+        "Cloud consulting services"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "img/services/1.png",
+      "title": "Infrastructure as code",
+      "icon": "bi-calendar4-week",
+      "services": [
+        "Infrastructure automation",
+        "Infrastructure as code implementation in a cloud",
+        "Infrastructure as code implementation on-prem"
+      ]
+    },
+    {
+      "id": 6,
+      "image": "img/services/1.png",
+      "title": "CI/CD",
+      "icon": "bi-chat-square-text",
+      "services": [
+        "Continuous integration (CI) implementation",
+        "Continuous delivery (CD) implementation",
+        "CI/CD consulting"
+      ]
+    }
+  ],  
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "ResourceDekho IT Services, Jaipur, Rajasthan, India – 302020",
+    "phone": "+91 9667753892",
+    "email": "info@resourcedekho.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Our Credentials",
+      "text": {
+        "items": [
+          "Project in budget",
+          "Skilled IT Resources",
+          "High quality services and resources"
+        ]
+      }
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Security",
+      "text": {
+        "items": [ 
+          "Authorized access to servers, networks and workstations",
+          "Strict NDA (Non Disclosure Agreement) to ensure a confidential working environment",
+          "Real-time anti-virus and SPAM protection for desktops and servers"
+        ]
+      }
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Why Us",
+      "text": {
+        "items": [ 
+          "Timely Delivery of products",
+          "Proficient project management",
+          "24*7 support",
+          "Innovative, creative solutions"
+        ]
+      }    
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Key Advantages",
+      "text": {
+        "items": [ 
+          "Competitive pricing without compromising quality",
+          "Tailored solutions to meet specific client needs",
+          "Seamless communication and collaboration throughout the project lifecycle"
+        ]
+      }
+    }
+  ],
+  "WhyResourcedekho":[
+    {
+      "icon":"fa fa-dollar",
+      "title":"Affordable",
+      "desc":"We know that budget plays a vital role for any startup, hence we ensure you get maximum value for the budget you are having."
+    },
+    {
+      "icon":"fa fa-check-circle",
+      "title":"Better",
+      "desc":"We understand the business value of any organization and for its dynamic growth, hence we hire people with the right attitude."
+    },
+    {
+      "icon":"fa fa-cogs",
+      "title":"Flexible",
+      "desc":"We are globally available 24*7 in all time zones. We are flexible enough to work as per the requirements."
+    }
+  ],
+  "JoinNow":
+    {
+      "header": "Join Team ResourceDekho",
+      "content": [
+        {
+          "title": "Permanent Work From Home",
+          "description": "Some of the biggest benefits of working remotely include eliminating the commute, building healthier habits and reducing illness. Remote work eliminates the commute which is one of the biggest benefits of working remotely."
+        },
+        {
+          "title": "6 Months Increment Cycle",
+          "description": "We appreciate the hard work of our people and to encourage that we offer increments twice in a gap of six months."
+        },
+        {
+          "title": "Bi-Annual Bonus",
+          "description": "We value our people and their hard work, to keep them motivated. ResourceDekho rewards them with Bi-annual bonus."
+        },
+        {
+          "title": "Annual Meetups",
+          "description": "Spending time with the team face-to-face is invaluable. To make work exciting we gather in a destination to look back at the last six months and plan for what is ahead. While exploring the destination surroundings."
+        }
+      ]
+    }
+}
