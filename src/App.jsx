@@ -43,10 +43,10 @@ const App = () => {
 							<WhyResourcdekho data={landingPageData.WhyResourcedekho} />
 						}
 					/>
-					{/* <Route
+					<Route
 						path="/join_us"
 						element={<JoinNowPage data={landingPageData.JoinNow} />}
-					/> */}
+					/>
 				</Routes>
 				<Footer />
 			</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { NavigationPage } from './navigation-page';
 import { Testimonials } from '../testimonials';
 import testimonialData from '../../data/data.json';
@@ -9,94 +8,51 @@ const JoinNowPage = ({ data }) => {
 	return (
 		<>
 			<NavigationPage />
-			<div id="join-now-page">
-				<div className="container">
-					<div className="section-title text-center">
-						<h2>{data.header}</h2>
+
+			<div className="container">
+				<div className="row">
+					<div className="col-md-12">
+						<div className="onboard-growInDiv">
+							<div className="title-section text-center">
+								<h2 className="section-title font-size-jumbo font-ultrabold">
+									{data.header}
+								</h2>
+							</div>
+						</div>
+
+						<div className="latest-accordion">
+							{data.content.map((item, index) => (
+								<div key={index}>
+									<div className="ind-accordion close">
+										<div className="course-accordion">
+											<div className="accordion-head accord-title">
+												<p className="is-flex">
+													<img
+														decoding="async"
+														src="https://cdn.hyperverge.co/wp-content/uploads/2024/02/convert-Users.webp"
+														alt="icon"
+													/>
+													<span>{item.title}</span>
+												</p>
+											</div>
+										</div>
+										<div
+											className="course-panel"
+											style={{ display: 'none' }}
+										>
+											<p>{item.description}</p>
+										</div>
+									</div>
+								</div>
+							))}
+						</div>
 					</div>
-					<Content>
-						{data.content.map((item, index) => (
-							<Card key={index}>
-								<CardContent>
-									<ContentBar>{item.title}</ContentBar>
-									<Description>{item.description}</Description>
-								</CardContent>
-							</Card>
-						))}
-					</Content>
 				</div>
 			</div>
 
-			<Testimonials testimonial={testimonial.Testimonials} />
+			<Testimonials testimonial={testimonial} />
 		</>
 	);
 };
 
 export default JoinNowPage;
-
-const Container = styled.div`
-	width: 100%;
-	background: linear-gradient(159deg, #e6e6fa 0%, #ffffff 100%);
-	padding: 2rem;
-	margin-top: 8rem;
-	text-align: center;
-`;
-
-const HeaderBar = styled.div`
-	background-color: #ff8955;
-	color: #fff;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	padding: 2rem;
-	font-size: 3rem;
-	border-radius: 10px;
-`;
-
-const Content = styled.div`
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 1rem;
-	margin-top: 2rem;
-`;
-
-const Card = styled.div`
-	background-color: #ffffff;
-	border-radius: 10px;
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-	width: calc(25% - 1rem); /* 4 cards in a row */
-	max-width: 300px;
-	overflow: hidden;
-	position: relative;
-	transition: transform 0.3s ease-in-out;
-
-	&:hover {
-		transform: translateY(-10px);
-	}
-`;
-
-const CardContent = styled.div`
-	padding: 2rem;
-`;
-
-const ContentBar = styled.div`
-	background-color: #ff758c;
-	color: #fff;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	padding: 1.4rem;
-	font-size: 1.6rem;
-	border-radius: 10px;
-`;
-
-const Description = styled.span`
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	margin-top: 1rem;
-	padding: 1rem;
-	font-size: 1.4rem;
-	color: #333;
-	display: inline-block;
-`;

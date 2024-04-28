@@ -125,7 +125,7 @@ button {
 /*------*/
 
 .PricingApp .app-container {
-  width: min(100%, 150rem);
+  width: min(100%, 100rem);
 }
 
 .PricingApp header .header-topic {
@@ -147,6 +147,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2%;
 }
 
 @media screen and (max-width: 800px) {

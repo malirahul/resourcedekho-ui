@@ -33,7 +33,7 @@ export const Services = (props) => {
                     margin: -100px 30px 10 10px;
                     transition: all ease-in-out 0.3s;
                     position: relative;
-                    background: rgba(255, 255, 255, 0.9); 
+                    background: rgba(255, 255, 255, 0.9);  
                     text-align: center;
                     border-radius: 8px;
                     box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ export const Services = (props) => {
                     margin: 0;
                     width: 72px;
                     height: 72px;
-                    background: #f6ab3c;
+                    background: #0C2D48;
                     border-radius: 50px;
                     display: flex;
                     align-items: center;

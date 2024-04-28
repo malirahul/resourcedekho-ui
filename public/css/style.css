@@ -245,14 +245,26 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 } */
-/* Features Section */
+/* CSS */
 #features {
   background: #f6f6f6;
+  padding: 50px 0;
 }
-#features i.fa {
+
+#features .service-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  height: 307px;
+}
+
+#features .service-card:hover {
+  background: #0c2d48;
+  color: white;
+}
+
+#features .service-card i {
   font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
+  margin: 10px;
   color: #fff;
   width: 100px;
   height: 100px;
@@ -311,7 +323,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #DFDFDF 0%, #DFDFDF 100%);
+  background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(215, 225, 235) 100%);
   color: #FFFFFF;
 }
 #services .service-desc {
