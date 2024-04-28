@@ -385,18 +385,22 @@
       "header": "Join Team ResourceDekho",
       "content": [
         {
+          "icon":"img/why-joinus-icons/work-from-home.png",
           "title": "Permanent Work From Home",
           "description": "Some of the biggest benefits of working remotely include eliminating the commute, building healthier habits and reducing illness. Remote work eliminates the commute which is one of the biggest benefits of working remotely."
         },
         {
+          "icon":"img/why-joinus-icons/fuel-price.png",
           "title": "6 Months Increment Cycle",
           "description": "We appreciate the hard work of our people and to encourage that we offer increments twice in a gap of six months."
         },
         {
+          "icon":"img/why-joinus-icons/commission.png",
           "title": "Bi-Annual Bonus",
           "description": "We value our people and their hard work, to keep them motivated. ResourceDekho rewards them with Bi-annual bonus."
         },
         {
+          "icon":"img/why-joinus-icons/meeting-time.png",
           "title": "Annual Meetups",
           "description": "Spending time with the team face-to-face is invaluable. To make work exciting we gather in a destination to look back at the last six months and plan for what is ahead. While exploring the destination surroundings."
         }
