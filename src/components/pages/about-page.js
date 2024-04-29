@@ -1,82 +1,149 @@
 import React from 'react';
-import styles from './pages-style/about-us.module.css';
 import { NavigationPage } from './navigation-page';
 
 const AboutUsPage = () => {
 	return (
 		<>
 			<NavigationPage />
-			<div className={styles['about-us-container']}>
-				{' '}
-				{/* Use CSS module class */}
-				<div className={styles['about-header']}>
-					<h1>About ResourceDekho</h1>
-				</div>
-				<div className={styles['about-header-inner']}>
-					<h4>
-						A place for managed IT resources and services for DevOps
-						infrastructure 🙂
-					</h4>
-				</div>
-				<div className={styles['row']}>
-					<div className={styles['empty-space']}></div>
-					<div className={styles['card'] + ' ' + styles['card-content']}>
-						<div className={styles['card-content-inner']}>
-							<p>
-								We welcome clients from around the globe who are prepared to
-								outsource their IT needs.
-							</p>
-							<p>
-								At ResourceDekho, we provide managed IT resources and services
-								for DevOps Infrastructure & Cloud, Monitoring & Logging
-								solutions & setup, Digital transformation, Software development.
-							</p>
-							<p>
-								We prioritize our clients' needs to ensure 100% satisfaction.
-								Understanding the depth and scope of our clients' businesses and
-								enterprise-wide IT environments enables us to deliver efficient,
-								long-lasting IT solutions and select effective technologies.
-							</p>
+			<section
+				className="RPjrgFxpqrqo timeline_13 uiblock testblock pad-y-9"
+				style={{ paddingTop: '110px' }}
+			>
+				<div className="container">
+					<div className="row justify-content-center">
+						<div className="col-12">
+							<div className="title-section text-center">
+								<h2 className="section-title font-size-jumbo font-ultrabold">
+									<span className="gradient">About ResourceDekho</span>
+								</h2>
+								<h4 className="tg content font-size-larger mar-b-7">
+									🙂 A place for managed IT resources and services for DevOps
+									infrastructure
+								</h4>
+								<br />
+							</div>
 						</div>
 					</div>
-					<div className={styles['card'] + ' ' + styles['card-image']}>
-						<div className={styles['card-image-inner']}>
-							<img
-								src="https://resourcedekho.com/wp-content/uploads/2022/09/Untitled-design-2-1.png"
-								alt="ResourceDekho Logo"
-							/>
+					<div className="gap-6"></div>
+					<div className="items-wrapper is-relative">
+						<div className="item-row in">
+							<div className="row justify-content-between">
+								<div className="col-12 col-md-6 mar-b-7 no-margin-bottom-md img-col">
+									<div className="text-center">
+										<img
+											decoding="async"
+											src="https://cdn.hyperverge.co/wp-content/uploads/2024/03/boost-conversion-rates-1.webp"
+											className="img-responsive"
+											alt="img-col"
+											width="100%"
+											height="auto"
+											loading="lazy"
+										/>
+									</div>
+								</div>
+								<div
+									className="col-12 col-md-6 content-col"
+									style={{ textAlign: 'justify' }}
+								>
+									<h3 className="font-bold font-size-huge font-bold mar-b-3 item-title">
+										Accept clients throughout the globe
+									</h3>
+									<hr />
+									<p
+										className="tg3 item-desc mar-b-4 font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										We accept clients throughout the globe who are ready to
+										Outsource IT needs.
+									</p>
+
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										We at ResourceDekho provide managed IT resources and
+										services for DevOps Infrastructure & Cloud, Monitoring &
+										Logging solution & setup, Digital transformation, Software &
+										development.
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										We focus on the needs of our clients to provide 100%
+										satisfaction. We understand the whole depth and scope of our
+										client’s businesses and enterprise-wide IT environments
+										allows us to come up with efficient, long-lasting IT
+										solutions and choose effective technologies.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className="item-row in">
+							<div className="row flex-md-row-reverse justify-content-between">
+								<div className="col-12 col-md-6 mar-b-7 no-margin-bottom-md img-col">
+									<div className="text-center">
+										<img
+											decoding="async"
+											src="https://cdn.hyperverge.co/wp-content/uploads/2024/03/onboar-1.webp"
+											className="img-responsive"
+											alt="img-col"
+											width="100%"
+											height="auto"
+											loading="lazy"
+										/>
+									</div>
+								</div>
+								<div className="col-12 col-md-6 content-col">
+									<h3
+										className="font-bold font-size-huge font-bold mar-b-3 item-title"
+										style={{ fontSize: '18px' }}
+									>
+										ResourceDekho Specialised in
+									</h3>
+									<hr />
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>DevOps and Automation</li>
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>Installation Configuration and Setup</li>
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>DevOps Consultant</li>
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>Software Application Design and Development</li>
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>Search Engine Optimization</li>
+									</p>
+									<p
+										className="tg3 item-desc mar-b-4 font-size-large font-regular"
+										style={{ fontSize: '18px' }}
+									>
+										<li>Responsive Web Design and Web Hosting</li>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div className={styles['empty-space']}></div>
 				</div>
-				<div className={styles['row']}>
-					<div className={styles['empty-space']}></div>
-					<div className={styles['card'] + ' ' + styles['card-image']}>
-						<div className={styles['card-image-inner']}>
-							<img
-								src="https://resourcedekho.com/wp-content/uploads/2022/09/Add-a-subheading.jpg"
-								alt="Specializations"
-							/>
-						</div>
-					</div>
-					<div className={styles['card'] + ' ' + styles['card-content']}>
-						<div className={styles['card-content-inner']}>
-							<p className={styles['specializations-heading']}>
-								<strong>ResourceDekho Specializes in:</strong>
-							</p>
-							<ul className={styles['specializations-list']}>
-								<li>DevOps and Automation</li>
-								<li>Installation Configuration and Setup</li>
-								<li>DevOps Consultancy</li>
-								<li>Software Application Design and Development</li>
-								<li>Search Engine Optimization</li>
-								<li>Responsive Web Design and Web Hosting</li>
-							</ul>
-						</div>
-					</div>
-					<div className={styles['empty-space']}></div>
-				</div>
-			</div>
+			</section>
 		</>
 	);
 };
