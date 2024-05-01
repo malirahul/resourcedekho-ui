@@ -182,7 +182,7 @@
   "Services": [
     {
       "id": 1,
-      "image": "img/services/1.png",
+      "image": "img/services/1.jpg",
       "title": "Log management and monitoring",
       "icon": "bi-broadcast",
       "services": [
@@ -195,7 +195,7 @@
     },
     {
       "id": 2,
-      "image": "img/services/1.png",
+      "image": "img/services/2.jpg",
       "title": "Containerization & Microservices",
       "icon": "bi-bounding-box-circles",
       "services": [
@@ -208,7 +208,7 @@
     },
     {
       "id": 3,
-      "image": "img/services/1.png",
+      "image": "img/services/3.jpg",
       "title": "DevOps outsourcing and consulting",
       "icon": "bi-activity",
       "services": [
@@ -220,7 +220,7 @@
     },
     {
       "id": 4,
-      "image": "img/services/1.png",
+      "image": "img/services/4.jpg",
       "title": "DevOps in cloud",
       "icon": "bi-easel",
       "services": [
@@ -233,7 +233,7 @@
     },
     {
       "id": 5,
-      "image": "img/services/1.png",
+      "image": "img/services/5.png",
       "title": "Infrastructure as code",
       "icon": "bi-calendar4-week",
       "services": [
@@ -244,7 +244,7 @@
     },
     {
       "id": 6,
-      "image": "img/services/1.png",
+      "image": "img/services/6.png",
       "title": "CI/CD",
       "icon": "bi-chat-square-text",
       "services": [
