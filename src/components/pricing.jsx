@@ -85,11 +85,7 @@ const PricingPage = ({ data }) => {
 						content={
 							!selectMonthly
 								? [
-										<div style={{ display: 'flex', alignItems: 'center' }}>
-											<FaCheck style={{ marginRight: '0.5rem' }} />
-											24×7 Monitoring
-										</div>,
-
+										'24×7 Monitoring',
 										'Managed By ResourceDekho',
 										'Rapid Escalation',
 										'Monitoring & Health Check',

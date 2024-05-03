@@ -8,6 +8,7 @@ import { Services } from './components/services';
 import { Testimonials } from './components/testimonials';
 import { Team } from './components/Team';
 import { Contact } from './components/contact';
+import { RenderingBar } from './components/bar';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
 import './App.css';
@@ -66,6 +67,8 @@ const HomePage = ({ data }) => {
 			{/* <Gallery data={data.Gallery} /> */}
 			<Testimonials data={data.Testimonials} />
 			<Team data={data.Team} />
+			{/* <Faq data={data.Contact} /> */}
+			<RenderingBar />
 			<Contact data={data.Contact} />
 		</div>
 	);

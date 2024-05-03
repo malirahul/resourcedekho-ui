@@ -106,6 +106,7 @@ export const Services = (props) => {
 									<div className="icon">
 										<i className={`bi ${service.icon}`}></i>
 									</div>
+									{/* eslint-disable-next-line */}
 									<a
 										href="#"
 										className="stretched-link"
@@ -122,72 +123,5 @@ export const Services = (props) => {
 				</div>
 			</div>
 		</div>
-
-		// <div
-		// 	id="services"
-		// 	className="text-center"
-		// >
-		// 	<div className="container">
-		// 		<div className="section-title">
-		// 			<h2>Our Services</h2>
-		// 			<p>
-		// 				We provide business solutions and resource outsourcing for IT
-		// 				services for the below-mentioned:
-		// 			</p>
-		// 		</div>
-		// 		<div className="row">
-		// 			{props.data
-		// 				? props.data.map((d, i) => {
-		// 						let list;
-		// 						if (Array.isArray(d.text.items)) {
-		// 							list = (
-		// 								<>
-		// 									{d.text.items.map((item, index) => (
-		// 										<li key={index}>{item}</li>
-		// 									))}
-		// 								</>
-		// 							);
-		// 						} else {
-		// 							list = <p>{d.text.items}</p>;
-		// 						}
-		// 						return (
-		// 							<div
-		// 								key={`${d.name}-${i}`}
-		// 								className="col-lg-4 col-md-6 col-sm-12 service-card d-flex align-items-stretch"
-		// 								style={{ marginBottom: '20px' }}
-		// 								onMouseEnter={() => setHoveredCard(`${d.name}-${i}`)}
-		// 								onMouseLeave={() => setHoveredCard(null)}
-		// 							>
-		// 								<div
-		// 									className="card"
-		// 									style={{
-		// 										boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-		// 										width: '100%',
-		// 										height: '35%',
-		// 										transition: 'transform 0.3s ease',
-		// 										transform:
-		// 											hoveredCard === `${d.name}-${i}`
-		// 												? 'translateY(-5px)'
-		// 												: 'none',
-		// 									}}
-		// 								>
-		// 									<div
-		// 										className="card-body d-flex flex-column justify-content-between"
-		// 										style={{ height: '100%' }}
-		// 									>
-		// 										<i className={d.icon}></i>
-		// 										<div className="service-desc">
-		// 											<h3>{d.name}</h3>
-		// 											{list}
-		// 										</div>
-		// 									</div>
-		// 								</div>
-		// 							</div>
-		// 						);
-		// 				  })
-		// 				: 'loading'}
-		// 		</div>
-		// 	</div>
-		// </div>
 	);
 };
