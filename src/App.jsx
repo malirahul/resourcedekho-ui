@@ -8,6 +8,8 @@ import { Services } from './components/services';
 import { Testimonials } from './components/testimonials';
 import { Team } from './components/Team';
 import { Contact } from './components/contact';
+import { NavigationPage } from './components/pages/navigation-page';
+import { ServicePage } from './components/pages/service-page';
 import { RenderingBar } from './components/bar';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
@@ -29,6 +31,7 @@ const App = () => {
 	return (
 		<Router>
 			<div>
+				<NavigationPage />
 				<Routes>
 					<Route
 						path="/"
@@ -37,6 +40,10 @@ const App = () => {
 					<Route
 						path="/about_us"
 						element={<AboutUsPage data={landingPageData} />}
+					/>
+					<Route
+						path="/services"
+						element={<ServicePage data={landingPageData.Services} />}
 					/>
 					<Route
 						path="/why_resourcedekho"

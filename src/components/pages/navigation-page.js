@@ -1,7 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export const NavigationPage = () => {
+	const location = useLocation();
+	const isActivePage = (page) => {
+		return location.pathname === page ? 'active' : '';
+	};
+
 	return (
 		<nav
 			id="menu"
@@ -34,34 +39,60 @@ export const NavigationPage = () => {
 					id="bs-example-navbar-collapse-1"
 				>
 					<ul className="nav navbar-nav navbar-right">
-						<li>
+						<li className={isActivePage('/')}>
+							<Link
+								to="/"
+								className="page-scroll"
+							>
+								Home
+							</Link>
+						</li>
+						<li className={isActivePage('/about_us')}>
 							<Link
 								to="/about_us"
 								className="page-scroll"
+								style={{
+									fontWeight: 'bold',
+									color: isActivePage('/about_us') ? 'black' : 'inherit',
+								}}
 							>
 								About
 							</Link>
 						</li>
-						<li>
+						<li className={isActivePage('/services')}>
 							<a
-								href="#services"
+								href="/services"
 								className="page-scroll"
+								style={{
+									fontWeight: 'bold',
+									color: isActivePage('/services') ? 'black' : 'inherit',
+								}}
 							>
 								Services
 							</a>
 						</li>
-						<li>
+						<li className={isActivePage('/why_resourcedekho')}>
 							<Link
 								to="/why_resourcedekho"
 								className="page-scroll"
+								style={{
+									fontWeight: 'bold',
+									color: isActivePage('/why_resourcedekho')
+										? 'black'
+										: 'inherit',
+								}}
 							>
 								Why ResourceDekho?
 							</Link>
 						</li>
-						<li>
+						<li className={isActivePage('/join_us')}>
 							<Link
 								to="/join_us"
 								className="page-scroll"
+								style={{
+									fontWeight: 'bold',
+									color: isActivePage('/join_us') ? 'black' : 'inherit',
+								}}
 							>
 								Join Us
 							</Link>

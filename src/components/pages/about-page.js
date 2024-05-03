@@ -1,10 +1,8 @@
 import React from 'react';
-import { NavigationPage } from './navigation-page';
 
 const AboutUsPage = () => {
 	return (
 		<>
-			<NavigationPage />
 			<section
 				className="RPjrgFxpqrqo timeline_13 uiblock testblock pad-y-9"
 				style={{ paddingTop: '110px' }}

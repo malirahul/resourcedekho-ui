@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavigationPage } from './navigation-page';
 
 const JoinNowPage = ({ data }) => {
 	const [openIndex, setOpenIndex] = useState(null);
@@ -127,8 +126,6 @@ const JoinNowPage = ({ data }) => {
                 }
                 `}
 			</style>
-
-			<NavigationPage />
 
 			<section className="onboard-gow">
 				<div className="container">

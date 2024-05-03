@@ -1,11 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { NavigationPage } from './navigation-page';
 
 const WhyResourcedekhoPage = ({ data }) => {
 	return (
 		<>
-			<NavigationPage />
 			<Container>
 				<div>
 					<h2>Why ResourceDekho?</h2>
