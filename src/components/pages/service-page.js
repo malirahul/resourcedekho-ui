@@ -1,84 +1,77 @@
 import React from 'react';
+import './pages-style/service-page.css';
 
-export const ServicePage = ({ data }) => {
+export const ServicePage = () => {
 	return (
-		<>
-			<style>{`
-        .our_expertise .b-radius {
-          border-radius: 10px;
-          color: #fff;
-        }
-        .our_expertise .para-color {
-          color: #fff;
-        }
-        .our_expertise .col-width {
-          margin-bottom: 25px;
-          color:#fff;
-        }
-        .our_expertise .hover-text:hover {
-          transform: scale(1.1);
-          cursor: pointer;
-          transition: transform 0.5s;
-        }
-        .our_expertise .width-desc {
-          width: 100%;
-          margin: auto;
-          max-width: 400px; 
-        }
-        .our_expertise .service-card {
-          background-color: #554ef1;
-          border-radius: 10px;
-          padding: 20px;
-          margin-bottom: 20px;
-          transition: transform 0.3s ease-in-out;
-        }
-        .our_expertise .service-card:hover {
-          transform: translateY(-5px);
-        }
-      `}</style>
+		<div className="digital-transformation-services">
+			<h4>OUR DIGITAL TRANSFORMATION SERVICES</h4>
+			<div className="services-info">
+				<h2 className="services-info-title">
+					We provide all types of DevOps & Cloud services
+				</h2>
+				<div className="services-info-details">
+					<p className="services-info-description">
+						Here at ResourceDekho, our DevOps consulting services help
+						organizations break down silos and establish efficient processes
+						between departments, aligning with their business goals.
+					</p>
+					<p className="services-info-description">
+						As your DevOps service provider, we ensure the smooth operation of
+						your systems, allowing you to focus on your core business needs.
+					</p>
+				</div>
+			</div>
 
-			<section
-				className="our_expertise uiblock pad-y-9"
-				style={{ background: '#f6f9fc', paddingTop: '140px' }}
-			>
-				<div className="container">
-					<div className="text-center">
-						<div className="font-size-small font-ultrabold text-uppercase mar-b-6">
-							OUR DIGITAL TRANSFORMATION SERVICES
-						</div>
-						<div className="font-size-jumbo font-ultrabold brand-black mar-b-4">
-							<h3 className="width-desc">
-								We provide all types of DevOps & Cloud services
-							</h3>
-						</div>
-					</div>
-					<br />
-					<div className="row justify-content-between">
-						{data.map((item, index) => (
-							<div
-								className="col-12 col-md-6 mar-t-7"
-								key={index}
-							>
-								<div className="service-card">
-									<div className="pad-y-5 no-padding-top">
-										<img
-											src={item.image}
-											alt={item.title}
-											loading="lazy"
-										/>
-									</div>
-									<h5 className="font-size-larger font-bold">{item.title}</h5>
-									<ul className="font-size-smaller para-color">
-										{item.services.map((service, index) => (
-											<li key={index}>{service}</li>
-										))}
-									</ul>
+			<div className="service-container">
+				<div className="service-card cloud-services">
+					<div>
+						<h2>Cloud Services</h2>
+						<ul>
+							<div className="inner-service-container">
+								<div className="inner-service-card">
+									<li>Cloud migration services</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Cloud architecture design</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Managed cloud services</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Cloud consulting services</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Serverless architecture design</li>
 								</div>
 							</div>
-						))}
+						</ul>
 					</div>
 				</div>
-			</section>
-		</>
+				<div className="service-card devops-services">
+					<div>
+						<h2>DevOps Services</h2>
+						<ul>
+							<div className="inner-service-container">
+								<div className="inner-service-card">
+									<li>DevOps as a service</li>
+								</div>
+								<div className="inner-service-card">
+									<li>DevOps outsourcing</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Continuous integration and deployment</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Container orchestration services</li>
+								</div>
+								<div className="inner-service-card">
+									<li>Infrastructure as code</li>
+								</div>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
