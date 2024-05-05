@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const Services = (props) => {
-	// const [hoveredCard, setHoveredCard] = useState(null);
+	const navigate = useNavigate();
+
+	const handleButtonClick = () => {
+		navigate('/services');
+	};
 
 	return (
 		<div
@@ -121,6 +126,25 @@ export const Services = (props) => {
 						</div>
 					))}
 				</div>
+			</div>
+			<div
+				style={{
+					textAlign: 'center',
+					paddingTop: '30px',
+				}}
+			>
+				<button
+					onClick={handleButtonClick}
+					style={{
+						padding: '10px 20px',
+						backgroundColor: '#007bff',
+						color: 'white',
+						border: 'none',
+						borderRadius: '5px',
+					}}
+				>
+					Read More
+				</button>
 			</div>
 		</div>
 	);

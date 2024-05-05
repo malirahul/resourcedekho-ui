@@ -18,7 +18,7 @@
       "Responsive Web Design and Web Hosting"
     ]
   },
-  "Pricing":[
+  "Pricing": [
     {
       "plan": "FREE",
       "price": "$0/month",
@@ -83,13 +83,16 @@
         },
         {
           "name": "Dedicated Phone Support",
-          "isEnabled":true        },
+          "isEnabled": true
+        },
         {
           "name": "Free Subdomain",
-          "isEnabled":true        },
+          "isEnabled": true
+        },
         {
           "name": "Monthly Status Reports",
-          "isEnabled": false        }
+          "isEnabled": false
+        }
       ]
     },
     {
@@ -131,7 +134,6 @@
       ]
     }
   ],
-
   "Gallery": [
     {
       "title": "Project Title",
@@ -253,7 +255,7 @@
         "CI/CD consulting"
       ]
     }
-  ],  
+  ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -332,7 +334,7 @@
       "icon": "fa fa-bullhorn",
       "title": "Security",
       "text": {
-        "items": [ 
+        "items": [
           "Authorized access to servers, networks and workstations",
           "Strict NDA (Non Disclosure Agreement) to ensure a confidential working environment",
           "Real-time anti-virus and SPAM protection for desktops and servers"
@@ -343,19 +345,19 @@
       "icon": "fa fa-group",
       "title": "Why Us",
       "text": {
-        "items": [ 
+        "items": [
           "Timely Delivery of products",
           "Proficient project management",
           "24*7 support",
           "Innovative, creative solutions"
         ]
-      }    
+      }
     },
     {
       "icon": "fa fa-magic",
       "title": "Key Advantages",
       "text": {
-        "items": [ 
+        "items": [
           "Competitive pricing without compromising quality",
           "Tailored solutions to meet specific client needs",
           "Seamless communication and collaboration throughout the project lifecycle"
@@ -363,47 +365,144 @@
       }
     }
   ],
-  "WhyResourcedekho":[
+  "WhyResourcedekho": [
     {
-      "icon":"fa fa-dollar",
-      "title":"Affordable",
-      "desc":"We know that budget plays a vital role for any startup, hence we ensure you get maximum value for the budget you are having."
+      "icon": "fa fa-dollar",
+      "title": "Affordable",
+      "desc": "We know that budget plays a vital role for any startup, hence we ensure you get maximum value for the budget you are having."
     },
     {
-      "icon":"fa fa-check-circle",
-      "title":"Better",
-      "desc":"We understand the business value of any organization and for its dynamic growth, hence we hire people with the right attitude."
+      "icon": "fa fa-check-circle",
+      "title": "Better",
+      "desc": "We understand the business value of any organization and for its dynamic growth, hence we hire people with the right attitude."
     },
     {
-      "icon":"fa fa-cogs",
-      "title":"Flexible",
-      "desc":"We are globally available 24*7 in all time zones. We are flexible enough to work as per the requirements."
+      "icon": "fa fa-cogs",
+      "title": "Flexible",
+      "desc": "We are globally available 24*7 in all time zones. We are flexible enough to work as per the requirements."
     }
   ],
-  "JoinNow":
-    {
-      "header": "Join Team ResourceDekho",
-      "content": [
+  "JoinNow": {
+    "header": "Join Team ResourceDekho",
+    "content": [
+      {
+        "icon": "img/why-joinus-icons/work-from-home.png",
+        "title": "Permanent Work From Home",
+        "description": "Some of the biggest benefits of working remotely include eliminating the commute, building healthier habits and reducing illness. Remote work eliminates the commute which is one of the biggest benefits of working remotely."
+      },
+      {
+        "icon": "img/why-joinus-icons/fuel-price.png",
+        "title": "6 Months Increment Cycle",
+        "description": "We appreciate the hard work of our people and to encourage that we offer increments twice in a gap of six months."
+      },
+      {
+        "icon": "img/why-joinus-icons/commission.png",
+        "title": "Bi-Annual Bonus",
+        "description": "We value our people and their hard work, to keep them motivated. ResourceDekho rewards them with Bi-annual bonus."
+      },
+      {
+        "icon": "img/why-joinus-icons/meeting-time.png",
+        "title": "Annual Meetups",
+        "description": "Spending time with the team face-to-face is invaluable. To make work exciting we gather in a destination to look back at the last six months and plan for what is ahead. While exploring the destination surroundings."
+      }
+    ]
+  },
+  "ServicePage": {
+    "digitalTransformationServices": {
+      "title": "OUR DIGITAL TRANSFORMATION SERVICES",
+      "description": "We provide all types of DevOps & Cloud services",
+      "services": [
         {
-          "icon":"img/why-joinus-icons/work-from-home.png",
-          "title": "Permanent Work From Home",
-          "description": "Some of the biggest benefits of working remotely include eliminating the commute, building healthier habits and reducing illness. Remote work eliminates the commute which is one of the biggest benefits of working remotely."
+          "title": "Cloud Services",
+          "items": [
+            {
+              "title": "Cloud migration services",
+              "icon": "img/services/icons/1.png"
+            },
+            {
+              "title": "Cloud architecture design",
+              "icon": "img/services/icons/2.png"
+            },
+            {
+              "title": "Managed cloud services",
+              "icon": "img/services/icons/3.png"
+            },
+            {
+              "title": "Cloud consulting services",
+              "icon": "img/services/icons/4.png"
+            },
+            {
+              "title": "Serverless architecture design",
+              "icon": "img/services/icons/5.png"
+            }
+          ]
         },
         {
-          "icon":"img/why-joinus-icons/fuel-price.png",
-          "title": "6 Months Increment Cycle",
-          "description": "We appreciate the hard work of our people and to encourage that we offer increments twice in a gap of six months."
+          "title": "DevOps Services",
+          "items": [
+            {
+              "title": "DevOps as a service",
+              "icon": "img/services/icons/6.png"
+            },
+            {
+              "title": "DevOps outsourcing",
+              "icon": "img/services/icons/7.png"
+            },
+            {
+              "title": "Continuous integration and deployment",
+              "icon": "img/services/icons/8.png"
+            },
+            {
+              "title": "Container orchestration services",
+              "icon": "img/services/icons/9.png"
+            },
+            {
+              "title": "Infrastructure as code",
+              "icon": "img/services/icons/10.png"
+            }
+          ]
+        }
+      ]
+    },
+    "otherServices": {
+      "title": "OUR OTHER SERVICES",
+      "description": "We provide Monitoring as a Service and Web Development",
+      "services": [
+        {
+          "title": "Log Management & Monitoring",
+          "items": [
+            {
+              "title": "Log management implementation",
+              "icon": "img/services/icons/11.png"
+            },
+            {
+              "title": "Monitoring tools implementation",
+              "icon": "img/services/icons/12.png"
+            },
+            {
+              "title": "IT analytics",
+              "icon": "img/services/icons/13.png"
+            }
+          ]
         },
         {
-          "icon":"img/why-joinus-icons/commission.png",
-          "title": "Bi-Annual Bonus",
-          "description": "We value our people and their hard work, to keep them motivated. ResourceDekho rewards them with Bi-annual bonus."
-        },
-        {
-          "icon":"img/why-joinus-icons/meeting-time.png",
-          "title": "Annual Meetups",
-          "description": "Spending time with the team face-to-face is invaluable. To make work exciting we gather in a destination to look back at the last six months and plan for what is ahead. While exploring the destination surroundings."
+          "title": "Web Development",
+          "items": [
+            {
+              "title": "Custom Web Application Development",
+              "icon": "img/services/icons/14.png"
+            },
+            {
+              "title": "Web Hosting Service",
+              "icon": "img/services/icons/15.png"
+            },
+            {
+              "title": "Maintenance and Support",
+              "icon": "img/services/icons/16.png"
+            }
+          ]
         }
       ]
     }
+  }
 }

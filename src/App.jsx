@@ -43,7 +43,7 @@ const App = () => {
 					/>
 					<Route
 						path="/services"
-						element={<ServicePage data={landingPageData.Services} />}
+						element={<ServicePage data={landingPageData.ServicePage} />}
 					/>
 					<Route
 						path="/why_resourcedekho"
