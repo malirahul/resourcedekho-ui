@@ -14,7 +14,7 @@ export const RenderingBar = () => {
                 .rendering-bar {
                     border-radius: 8px;
                     padding: 20px 10%;
-                    background-color: blue;
+                    background-color: darkBlue;
                     max-width: 1100px;
                     width: 100%;
                 }
@@ -83,7 +83,7 @@ export const RenderingBar = () => {
 				<div className="rendering-bar">
 					<div className="content-wrapper">
 						<div className="content-left">
-							<p className="content-text">Why Join Us ResourceDekho ?</p>
+							<p className="content-text">Why Join ResourceDekho ?</p>
 						</div>
 						<div className="content-right">
 							<div className="button-wrapper">

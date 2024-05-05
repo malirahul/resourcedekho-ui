@@ -1,4 +1,6 @@
 import React from 'react';
+import company from '../../images/about-us/our-leadership-banner.png';
+import devOps from '../../images/about-us/devops.jpg';
 
 const AboutUsPage = () => {
 	return (
@@ -30,7 +32,7 @@ const AboutUsPage = () => {
 									<div className="text-center">
 										<img
 											decoding="async"
-											src="https://cdn.hyperverge.co/wp-content/uploads/2024/03/boost-conversion-rates-1.webp"
+											src={company}
 											className="img-responsive"
 											alt="img-col"
 											width="100%"
@@ -83,7 +85,7 @@ const AboutUsPage = () => {
 									<div className="text-center">
 										<img
 											decoding="async"
-											src="https://cdn.hyperverge.co/wp-content/uploads/2024/03/onboar-1.webp"
+											src={devOps}
 											className="img-responsive"
 											alt="img-col"
 											width="100%"
