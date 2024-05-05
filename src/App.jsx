@@ -10,7 +10,7 @@ import { Team } from './components/Team';
 import { Contact } from './components/contact';
 import { NavigationPage } from './components/pages/navigation-page';
 import { ServicePage } from './components/pages/service-page';
-import { RenderingBar } from './components/bar';
+import { RenderingBar } from './components/redirect-floating-bar';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
 import './App.css';

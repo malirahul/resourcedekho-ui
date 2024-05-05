@@ -6,6 +6,7 @@ export const Services = (props) => {
 
 	const handleButtonClick = () => {
 		navigate('/services');
+		window.scrollTo(0, 0);
 	};
 
 	return (

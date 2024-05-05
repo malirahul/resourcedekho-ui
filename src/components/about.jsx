@@ -6,6 +6,7 @@ export const About = (props) => {
 
 	const handleButtonClick = () => {
 		navigate('/about_us');
+		window.scrollTo(0, 0);
 	};
 
 	return (

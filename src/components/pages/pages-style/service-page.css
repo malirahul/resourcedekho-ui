@@ -6,26 +6,26 @@
     background-color: #f6f9fc;
 }
 
-.services-info {
+.digital-transformation-services .services-info {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
     padding: 20px 20px; 
 }
 
-.services-info-title {
+.digital-transformation-services .services-info-title {
     font-size: 36px;
     margin-bottom: 10px;
     color: #333; 
 }
 
-.services-info-details {
+.digital-transformation-services .services-info-details {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.services-info-description {
+.digital-transformation-services .services-info-description {
     font-size: 16px; 
     line-height: 1.5;
     margin-bottom: 10px;
@@ -33,13 +33,13 @@
 }
 
 
-.service-container {
+.digital-transformation-services .service-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.service-card {
+.digital-transformation-services .service-card {
     background: linear-gradient(135deg, #3498db, #2980b9); 
     color: #fff; 
     padding: 10px;
@@ -50,37 +50,37 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
-.service-card:hover {
+.digital-transformation-services .service-card:hover {
     transition: all ease-in-out 0.3s;
     transform: translateY(-10px); 
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
 }
 
-.service-card h2 {
+.digital-transformation-services .service-card h2 {
     margin-bottom: 15px; 
     font-size: 24px; 
 }
 
-.service-card ul {
+.digital-transformation-services .service-card ul {
     list-style-type: none;
     padding: 0;
 }
 
-.service-card li {
+.digital-transformation-services .service-card li {
     margin-bottom: 15px;
 }
 
-.services-content {
+.digital-transformation-services .services-content {
     border: 2px solid #1A5276;
 }
 
-.inner-service-container {
+.digital-transformation-services .inner-service-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.inner-service-card {
+.digital-transformation-services .inner-service-card {
     background: linear-gradient(135deg, #f6f9fc, #fff); 
     color: #000; 
     padding: 15px;
@@ -94,23 +94,23 @@
     align-items: center;
 }
 
-.icon-container {
+.digital-transformation-services .icon-container {
     width: 50px;
     height: 50px;
     margin-right: 10px;
 }
 
-.icon-container img {
+.digital-transformation-services .icon-container img {
     width: 100%;
     height: 100%;
 }
 
-.service-content {
+.digital-transformation-services .service-content {
     flex: 1; 
 }
 
 
-.inner-service-card:hover {
+.digital-transformation-services .inner-service-card:hover {
     transform: scale(1.05); 
 }
 
