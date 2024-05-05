@@ -411,6 +411,8 @@
     "digitalTransformationServices": {
       "title": "OUR DIGITAL TRANSFORMATION SERVICES",
       "description": "We provide all types of DevOps & Cloud services",
+      "subDescription1": "Here in ResourceDekho, DevOps consulting helps an organization to break down silos and set up the right processes between departments to align with the business goal.",
+      "subDescription2": "And being the DevOps service provider, we take care of your operations so that you could focus on business needs.",
       "services": [
         {
           "title": "Cloud Services",
@@ -467,6 +469,7 @@
     "otherServices": {
       "title": "OUR OTHER SERVICES",
       "description": "We provide Monitoring as a Service and Web Development",
+      "subDescription": "Logging and monitoring are both valuable components to maintaining optimal application performance",
       "services": [
         {
           "title": "Log Management & Monitoring",

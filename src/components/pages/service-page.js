@@ -16,6 +16,14 @@ export const ServicePage = ({ data }) => {
 				<h2 className="services-info-title">
 					{data.digitalTransformationServices.description}
 				</h2>
+				<h7 className="services-info-sub-description">
+					{data.digitalTransformationServices.subDescription1}
+				</h7>
+				<br />
+				<br />
+				<h7 className="services-info-sub-description">
+					{data.digitalTransformationServices.subDescription2}
+				</h7>
 				<div className="services-info-details">
 					{data.digitalTransformationServices.services.map((service) => (
 						<div key={service.title}>
@@ -70,6 +78,9 @@ export const ServicePage = ({ data }) => {
 				<h2 className="services-info-title">
 					{data.otherServices.description}
 				</h2>
+				<h7 className="services-info-sub-description">
+					{data.otherServices.subDescription}
+				</h7>
 				<div className="services-info-details">
 					{data.otherServices.services.map((service) => (
 						<div key={service.title}>

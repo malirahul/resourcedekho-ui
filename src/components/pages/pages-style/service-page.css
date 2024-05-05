@@ -19,6 +19,12 @@
     color: #333; 
 }
 
+.digital-transformation-services .services-info-sub-description {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
 .digital-transformation-services .services-info-details {
     display: flex;
     flex-direction: column;
@@ -112,27 +118,4 @@
 
 .digital-transformation-services .inner-service-card:hover {
     transform: scale(1.05); 
-}
-
-
-@media (max-width: 768px) {
-    .service-card {
-        width: 90%;
-    }
-
-    .inner-service-card {
-        width: 90%; 
-    }
-    
-    .services-info {
-        padding: 40px 10px; 
-    }
-    
-    .services-info-title {
-        font-size: 30px;
-    }
-    
-    .services-info-description {
-        font-size: 14px; 
-    }
 }
