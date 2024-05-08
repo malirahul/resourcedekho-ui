@@ -365,6 +365,20 @@
       }
     }
   ],
+  "Faq": [
+    {
+      "question": "Are resources available for short-term projects?",
+      "answer": "Yes, we provide resources for as low as 1 day."
+    },
+    {
+      "question": "How is ResourceDekho different from other resource providers?",
+      "answer": "We believe that nothing we do is more important than hiring and developing people. At the end of the day, you bet on people, not strategies."
+    },
+    {
+      "question": "Does ResourceDekho also take one-time tasks/projects?",
+      "answer": "Yes, we also work on projects and tasks based on different technologies."
+    }
+  ],
   "WhyResourcedekho": [
     {
       "icon": "fa fa-dollar",

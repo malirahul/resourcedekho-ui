@@ -74,12 +74,20 @@ export const Navigation = () => {
 								Testimonials
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a
 								href="#team"
 								className="page-scroll"
 							>
 								Team
+							</a>
+						</li> */}
+						<li>
+							<a
+								href="#faq"
+								className="page-scroll"
+							>
+								Faq
 							</a>
 						</li>
 						<li>

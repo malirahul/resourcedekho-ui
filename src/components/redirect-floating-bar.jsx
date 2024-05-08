@@ -9,6 +9,7 @@ export const RenderingBar = () => {
                     display: flex;
                     justify-content: center;
 					padding:10px;
+                    background-color: #dfeeee;
                 }
 
                 .rendering-bar {

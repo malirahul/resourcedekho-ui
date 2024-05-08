@@ -6,11 +6,11 @@ import { Features } from './components/features';
 import { About } from './components/about';
 import { Services } from './components/services';
 import { Testimonials } from './components/testimonials';
-import { Team } from './components/Team';
 import { Contact } from './components/contact';
 import { NavigationPage } from './components/pages/navigation-page';
 import { ServicePage } from './components/pages/service-page';
 import { RenderingBar } from './components/redirect-floating-bar';
+import { Faq } from './components/faq';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
 import './App.css';
@@ -73,8 +73,8 @@ const HomePage = ({ data }) => {
 			<PricingPage data={data} />
 			{/* <Gallery data={data.Gallery} /> */}
 			<Testimonials data={data.Testimonials} />
-			<Team data={data.Team} />
-			{/* <Faq data={data.Contact} /> */}
+			{/* <Team data={data.Team} /> */}
+			<Faq data={data.Faq} />
 			<RenderingBar />
 			<Contact data={data.Contact} />
 		</div>
