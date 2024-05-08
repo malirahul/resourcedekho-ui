@@ -105,7 +105,7 @@ export const Services = (props) => {
 									<img
 										src={service.image}
 										className="img-fluid"
-										alt=""
+										alt="service img"
 									/>
 								</div>
 								<div className="details position-relative">

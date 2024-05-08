@@ -22,11 +22,10 @@ export const Testimonials = (props) => {
 								>
 									<div className="testimonial">
 										<div className="testimonial-image">
-											{' '}
 											<img
 												src={d.img}
-												alt=""
-											/>{' '}
+												alt="img"
+											/>
 										</div>
 										<div className="testimonial-content">
 											<p>"{d.text}"</p>
