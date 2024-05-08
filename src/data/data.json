@@ -186,7 +186,7 @@
       "id": 1,
       "image": "img/services/1.jpg",
       "title": "Log management and monitoring",
-      "icon": "bi-broadcast",
+      "icon": "img/services/icons/11.png",
       "services": [
         "Log management",
         "Monitoring",
@@ -199,7 +199,7 @@
       "id": 2,
       "image": "img/services/2.jpg",
       "title": "Containerization & Microservices",
-      "icon": "bi-bounding-box-circles",
+      "icon": "img/services/icons/9.png",
       "services": [
         "Microservices architecture",
         "Microservices consulting",
@@ -212,7 +212,7 @@
       "id": 3,
       "image": "img/services/3.jpg",
       "title": "DevOps outsourcing and consulting",
-      "icon": "bi-activity",
+      "icon": "img/services/icons/5.png",
       "services": [
         "DevOps assessment & audit",
         "DevOps implementation from scratch with roadmapping",
@@ -224,7 +224,7 @@
       "id": 4,
       "image": "img/services/4.jpg",
       "title": "DevOps in cloud",
-      "icon": "bi-easel",
+      "icon": "img/services/icons/1.png",
       "services": [
         "Cloud architecture design",
         "Cloud readiness assessment",
@@ -237,7 +237,7 @@
       "id": 5,
       "image": "img/services/5.png",
       "title": "Infrastructure as code",
-      "icon": "bi-calendar4-week",
+      "icon": "img/services/icons/10.png",
       "services": [
         "Infrastructure automation",
         "Infrastructure as code implementation in a cloud",
@@ -248,7 +248,7 @@
       "id": 6,
       "image": "img/services/6.png",
       "title": "CI/CD",
-      "icon": "bi-chat-square-text",
+      "icon": "img/services/icons/6.png",
       "services": [
         "Continuous integration (CI) implementation",
         "Continuous delivery (CD) implementation",

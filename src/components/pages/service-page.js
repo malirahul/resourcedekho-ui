@@ -109,7 +109,7 @@ export const ServicePage = ({ data }) => {
 												<img
 													decoding="async"
 													src={item.icon}
-													alt="Service Icon"
+													alt="icon"
 												/>
 											</div>
 											<div className="service-content">{item.title}</div>

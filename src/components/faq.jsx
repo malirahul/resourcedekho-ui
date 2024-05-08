@@ -41,7 +41,7 @@ export const Faq = ({ data }) => {
 														href="#contact"
 														className="btn btn-primary"
 													>
-														Chat with our team
+														Any Question ?
 													</a>
 												</div>
 											</div>

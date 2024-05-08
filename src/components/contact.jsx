@@ -65,7 +65,7 @@ export const Contact = (props) => {
 							</div>
 							<form
 								name="sentMessage"
-								validate
+								validate="true"
 								onSubmit={handleSubmit}
 							>
 								<div className="row">

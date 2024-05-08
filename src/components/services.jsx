@@ -110,7 +110,16 @@ export const Services = (props) => {
 								</div>
 								<div className="details position-relative">
 									<div className="icon">
-										<i className={`bi ${service.icon}`}></i>
+										<img
+											decoding="async"
+											src={`${service.icon}`}
+											alt="icon"
+											style={{
+												width: '40px',
+												height: '40px',
+												filter: 'invert(1)',
+											}}
+										/>
 									</div>
 									{/* eslint-disable-next-line */}
 									<a
