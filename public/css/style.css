@@ -514,6 +514,81 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
+/* faq Section */
+#faq .faq-container {
+  padding: 100px 0;
+  background-color: #dfeeee;
+}
+
+#faq .left-item {
+  text-align: center;
+}
+
+#faq .faq-image {
+  width: 145px;
+  height: 145px;
+  margin-bottom: 15px;
+}
+
+#faq .faq-item {
+  margin-bottom: 20px;
+}
+
+#faq .accordion-icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #777; 
+}
+
+.accordion-icon.active {
+  color: #333; 
+}
+
+#faq .rotate-icon {
+  transform: rotate(90deg);
+}
+
+#faq .panel {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.panel.show {
+  display: block;
+}
+
+#faq .faq-card {
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.faq-card-header {
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 40px 15px 20px; 
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-card-body {
+  padding: 0;
+}
+
+.faq-answer {
+  padding: 10px;
+}
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;

@@ -9,88 +9,6 @@ export const Faq = ({ data }) => {
 
 	return (
 		<>
-			<style>
-				{`
-                    /* FAQ Container */
-                    .faq-container {
-                        padding: 50px 0;
-                        background-color: #dfeeee;
-                    }
-
-                    /* Left Item Styles */
-                    .left-item {
-                        text-align: center;
-                    }
-
-                    .faq-image {
-                        width: 145px;
-                        height: 145px;
-                        margin-bottom: 15px;
-                    }
-
-                    /* FAQ Item Styles */
-                    .faq-item {
-                        margin-bottom: 20px;
-                    }
-
-                    /* Accordion Icon Styles */
-                    .accordion-icon {
-                        cursor: pointer;
-                        font-size: 20px;
-                        transition: transform 0.3s ease;
-                    }
-
-                    .accordion-icon.active {
-                        transform: rotate(-90deg);
-                    }
-
-                    /* Panel Styles */
-                    .panel {
-                        display: none;
-                        overflow: hidden;
-                        transition: max-height 0.3s ease-out;
-                    }
-
-                    .panel.show {
-                        display: block;
-                    }
-
-                    /* Card Styles */
-                    .faq-card {
-                        border-radius: 20px;
-                        border: 2px solid #e0e0e0;
-                        background-color: #f9f9f9;
-                        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-                        position: relative;
-                    }
-
-                    .faq-card-header {
-                        border-radius: 20px;
-                        background-color: #ffffff;
-                        border-bottom: 1px solid #e0e0e0;
-                        padding: 15px 40px 15px 20px; /* Adjusted padding */
-                        cursor: pointer;
-                        position: relative;
-                    }
-
-                    .faq-card-header::after {
-                        content: '';
-                        position: absolute;
-                        top: 50%;
-                        right: 20px;
-                        transform: translateY(-50%);
-                        font-size: 20px;
-                    }
-
-                    .faq-card-body {
-                        padding: 0;
-                    }
-
-                    .faq-answer {
-                        padding: 20px;
-                    }
-                `}
-			</style>
 			<div
 				id="faq"
 				className="text-center"
@@ -138,7 +56,21 @@ export const Faq = ({ data }) => {
 																className="faq-card-header"
 																onClick={() => toggleAccordion(index)}
 															>
-																<h3 className="mb-0">{item.question}</h3>
+																<h3
+																	className="mb-0"
+																	style={{
+																		fontSize: '20px',
+																		fontWeight: 600,
+																		lineHeight: '28px',
+																		letterSpacing: '0.01em',
+																		color: '#646487',
+																		textAlign: 'left',
+																		paddingLeft: '12px',
+																	}}
+																>
+																	{item.question}
+																</h3>
+
 																<span
 																	className={`accordion-icon ${
 																		activeIndex === index ? 'active' : ''
@@ -153,7 +85,19 @@ export const Faq = ({ data }) => {
 																}`}
 															>
 																<div className="faq-answer">
-																	<p>{item.answer}</p>
+																	<p
+																		style={{
+																			fontSize: '18px',
+																			fontWeight: 500,
+																			lineHeight: '27px',
+																			letterSpacing: '0.01em',
+																			textAlign: 'left',
+																			paddingLeft: '30px',
+																			color: '#3C3C50',
+																		}}
+																	>
+																		{item.answer}
+																	</p>
 																</div>
 															</div>
 														</div>
