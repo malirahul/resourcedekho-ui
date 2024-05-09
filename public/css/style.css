@@ -384,7 +384,7 @@ header .intro-text {
   text-align: center;
   color: var(--neutral-dark-grayish-blue);
   background-color: var(--neutral-white);
-  /* width: min(100%, 120rem); */
+  width: min(100%, 120rem);
   width: fit-content;
   transition: transform 0.3s ease;
   overflow: hidden;
@@ -758,7 +758,8 @@ label {
 }
 
 #footer a {
-  color: #f6ab3c;
+  color: #1349fc;
+  font-weight: bold;
 }
 
 #footer a:hover {
@@ -810,7 +811,7 @@ label {
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
-  background: #f6ab3c;
+  background: #0c2d48;
 }
 #footer .social i.fa:hover {
   color: #444;

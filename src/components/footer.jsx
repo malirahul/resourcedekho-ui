@@ -17,7 +17,7 @@ const Footer = (props) => {
 										ResourceDekho IT Services <br />
 										<a href="mailto:info@resourcedekho.com">
 											info@resourcedekho.com
-										</a>{' '}
+										</a>
 										<br />
 										+91 9667753892 <br />
 										Jaipur, Rajasthan, India – 302020
