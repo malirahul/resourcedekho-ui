@@ -63,7 +63,7 @@ export default WhyResourcedekhoPage;
 
 const Container = styled.div`
 	width: 100%;
-	background-color: #f7f7f7;
+	background-color: #f8f8fa;
 	padding: 5rem 0;
 	text-align: center;
 `;
@@ -119,7 +119,7 @@ const Content = styled.div`
 	align-items: center;
 	justify-content: center;
 	padding: 5rem 1rem;
-	flex-direction: column;
+	// flex-direction: column;
 
 	@media (min-width: 768px) {
 		padding: 5rem;
