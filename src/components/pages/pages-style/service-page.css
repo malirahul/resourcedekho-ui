@@ -3,7 +3,7 @@
 .digital-transformation-services {
     text-align: center;
     padding-top: 100px;
-    background-color: #f6f9fc;
+    background-color: #fff;
 }
 
 .digital-transformation-services .services-info {
@@ -11,6 +11,10 @@
     margin: 0 auto;
     text-align: center;
     padding: 20px 20px; 
+    background: #f1ecec; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .digital-transformation-services .services-info-title {
