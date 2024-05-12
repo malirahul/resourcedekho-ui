@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaCheck } from 'react-icons/fa';
 
 const PricingCard = ({ title, subtitle, price, content }) => {
 	return (
